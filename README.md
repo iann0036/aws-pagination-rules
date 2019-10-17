@@ -59,8 +59,8 @@ Discovery | nextToken | nextToken
 DLM | N/A | N/A
 DMS | Marker | Marker
 DocDB | Marker | Marker
-DynamoDB | * | *
-DynamoDBStreams | * | *
+DynamoDB | _uses last item_ | _uses last item_
+DynamoDBStreams | _uses last item_ | _uses last item_
 EC2 | NextToken | NextToken
 EC2InstanceConnect | N/A | N/A
 ECR | nextToken | nextToken
@@ -74,4 +74,45 @@ ELB | Marker | NextMarker
 ELBv2 | Marker | NextMarker
 EMR | Marker | Marker
 ES | NextToken | NextToken
+EventBridge | NextToken | NextToken
+Firehose | _uses last item_ | _uses last item_
+FMS | NextToken | NextToken
+ForecastQueryService | NextToken | NextToken
+ForecastService | NextToken | NextToken
+FSx | NextToken | NextToken
+GameLift | NextToken | NextToken
+Glacier | marker | Marker
+GlobalAccelerator | NextToken | NextToken
+Glue | NextToken | NextToken
+Greengrass | NextToken | NextToken
+GroundStation | nextToken | nextToken
+GuardDuty | NextToken | NextToken
+Health | nextToken | nextToken
+IAM | Marker | Marker
+ImportExport | Marker | _uses last item_
+Inspector | nextToken | nextToken
+Iot | marker | nextMarker
+IoT1ClickDevicesService | NextToken | NextToken
+IoT1ClickProjects | nextToken | nextToken
+IoTAnalytics | nextToken | nextToken
+IotData | N/A | N/A
+IoTEvents | nextToken | nextToken
+IoTEventsData | nextToken | nextToken
+IoTJobsDataPlane | N/A | N/A
+IoTThingsGraph | nextToken | nextToken
+Kafka | NextToken | NextToken
+Kinesis | _uses last item_ | _uses last item_
+KinesisAnalytics | _uses last item_ | _uses last item_
+KinesisAnalyticsV2 | NextToken | NextToken
+KinesisVideo | NextToken | NextToken
+KinesisVideoArchivedMedia | NextToken | NextToken
+KinesisVideoMedia | N/A | N/A
+KMS | Marker | NextMarker
+LakeFormation | NextToken | NextToken
+Lambda | Marker | NextMarker
+LexModelBuildingService | nextToken | nextToken
+LexRuntime | N/A | N/A
+LicenseManager | NextToken | NextToken
+Lightsail | pageToken | nextPageToken
+MachineLearning | NextToken | NextToken
 ...
