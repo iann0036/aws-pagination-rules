@@ -1,5 +1,7 @@
 # AWS Pagination Rules
 
+## Chart: Distribution of AWS service count by pagination method
+
 ![](chart.png)
 
 ## JS SDK
