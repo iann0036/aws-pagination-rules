@@ -1,5 +1,7 @@
 # AWS Pagination Rules
 
+![](chart.png)
+
 ## JS SDK
 
 Service | Request Key | Response Key
