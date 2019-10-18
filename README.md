@@ -164,7 +164,7 @@ RoboMaker | nextToken | nextToken
 Route53 | Marker | NextMarker
 Route53Domains | Marker | NextPageMarker
 Route53Resolver | NextToken | NextToken
-S3 | ContinuationToken _or_ Marker ** | NextContinuationToken _or_ NextMarker **
+S3 | ContinuationToken _or_ Marker | NextContinuationToken _or_ NextMarker _** see note_
 S3Control | NextToken | NextToken
 SageMaker | NextToken | NextToken
 SageMakerRuntime | N/A | N/A
@@ -200,3 +200,5 @@ WorkMail | NextToken | NextToken
 WorkMailMessageFlow | N/A | N/A
 WorkSpaces | NextToken | NextToken
 XRay | NextToken | NextToken
+
+_** S3 is usually ContinuationToken/NextContinuationToken or Marker/NextMarker, but there are some exceptions_
