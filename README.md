@@ -1,6 +1,6 @@
 # AWS Pagination Rules
 
-Background: I wrote this up to help we create a [generic paginator for Former2](https://github.com/iann0036/former2/commit/5d1c8592ac6fa622666036b9361f64b5245a6577).
+Background: I wrote this up to help me create a [generic paginator for Former2](https://github.com/iann0036/former2/commit/5d1c8592ac6fa622666036b9361f64b5245a6577).
 
 ## Chart: Distribution of AWS service count by pagination method
 
